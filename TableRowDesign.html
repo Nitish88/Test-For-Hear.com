@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hear.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CustomeStyleSheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>  
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 mt-2 mb-2">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="header-title mt-0 mb-3">Transaction History</h4>
+            <div class="table-responsive dash-social">
+                <div id="datatable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="dataTables_length" id="datatable_length">
+                                <label>Show
+                                    <select name="datatable_length" aria-controls="datatable" class="custom-select custom-select-sm form-control form-control-sm">
+                                        <option value="10">10</option>
+                                        <option value="25">25</option>
+                                        <option value="50">50</option>
+                                        <option value="100">100</option>
+                                    </select> entries</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div id="datatable_filter" class="dataTables_filter">
+                                <label class="col-md-12">Search:
+                                    <input type="search" class="form-control form-control-sm" placeholder="" aria-controls="datatable">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table id="datatable" class="table table-bordered dataTable no-footer" role="grid" aria-describedby="datatable_info">
+                                <thead class="thead-light">
+                                    <tr role="row">
+                                        <th class="sorting_asc" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="No: activate to sort column descending" style="width: 42px;">No</th>
+                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Date: activate to sort column ascending" style="width: 95px;">Date</th>
+                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Time: activate to sort column ascending" style="width: 66px;">Time</th>
+                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Transaction ID: activate to sort column ascending" style="width: 166px;">Transaction ID</th>
+                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Type: activate to sort column ascending" style="width: 72px;">Type</th>
+                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Value: activate to sort column ascending" style="width: 72px;">Value</th>
+                                    </tr>
+                                    <!--end tr-->
+                                </thead>
+                                <tbody>
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <!--end tr-->
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1">01</td>
+                                        <td>14 Jan 2019</td>
+                                        <td>12:05PM</td>
+                                        <td>0001245368452136</td>
+                                        <td><span class="badge badge-soft-danger">Sent</span></td>
+                                        <td>$521.36</td>
+                                    </tr>
+                                    <tr role="row" class="even">
+                                        <td class="sorting_1">02</td>
+                                        <td>13 Jan 2019</td>
+                                        <td>10:15AM</td>
+                                        <td>0012369584712458</td>
+                                        <td><span class="badge badge-soft-success">Received</span></td>
+                                        <td>$990.00</td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1">03</td>
+                                        <td>11 Jan 2019</td>
+                                        <td>09:14PM</td>
+                                        <td>0012457896321548</td>
+                                        <td><span class="badge badge-soft-danger">Sent</span></td>
+                                        <td>$321.21</td>
+                                    </tr>
+                                    <tr role="row" class="even">
+                                        <td class="sorting_1">04</td>
+                                        <td>08 Jan 2019</td>
+                                        <td>12:05PM</td>
+                                        <td>0126582125487896</td>
+                                        <td><span class="badge badge-soft-success">Received</span></td>
+                                        <td>$321.21</td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1">05</td>
+                                        <td>06 Jan 2019</td>
+                                        <td>11:30AM</td>
+                                        <td>0125896312345878</td>
+                                        <td><span class="badge badge-soft-danger">Sent</span></td>
+                                        <td>$458.80</td>
+                                    </tr>
+                                    <tr role="row" class="even">
+                                        <td class="sorting_1">06</td>
+                                        <td>05 Jan 2019</td>
+                                        <td>05:50PM</td>
+                                        <td>0001245863254874</td>
+                                        <td><span class="badge badge-soft-success">Received</span></td>
+                                        <td>125.50</td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1">07</td>
+                                        <td>04 Jan 2019</td>
+                                        <td>08:10PM</td>
+                                        <td>0000021253698745</td>
+                                        <td><span class="badge badge-soft-danger">Sent</span></td>
+                                        <td>$365.21</td>
+                                    </tr>
+                                    <tr role="row" class="even">
+                                        <td class="sorting_1">08</td>
+                                        <td>03 Jan 2019</td>
+                                        <td>01:30PM</td>
+                                        <td>0000212125487963</td>
+                                        <td><span class="badge badge-soft-success">Received</span></td>
+                                        <td>$843.21</td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1">09</td>
+                                        <td>03 Jan 2019</td>
+                                        <td>12:05PM</td>
+                                        <td>0124563985478456</td>
+                                        <td><span class="badge badge-soft-danger">Sent</span></td>
+                                        <td>$335.15</td>
+                                    </tr>
+                                    <tr role="row" class="even">
+                                        <td class="sorting_1">10</td>
+                                        <td>02 Jan 2019</td>
+                                        <td>03:15PM</td>
+                                        <td>0125896325483658</td>
+                                        <td><span class="badge badge-soft-success">Received</span></td>
+                                        <td>$554.50</td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1">11</td>
+                                        <td>01 Jan 2019</td>
+                                        <td>10:05AM</td>
+                                        <td>0013256548745123</td>
+                                        <td><span class="badge badge-soft-danger">Sent</span></td>
+                                        <td>$225.25</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5">
+                            <div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 11 of 11 entries</div>
+                        </div>
+                        <div class="col-sm-12 col-md-7">
+                            <div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate">
+                                <ul class="pagination">
+                                    <li class="paginate_button page-item previous disabled" id="datatable_previous"><a href="#" aria-controls="datatable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                                    <li class="paginate_button page-item active"><a href="#" aria-controls="datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                                    <li class="paginate_button page-item next disabled" id="datatable_next"><a href="#" aria-controls="datatable" data-dt-idx="2" tabindex="0" class="page-link">Next</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end card-body-->
+    </div>
+    <!--end card-->
+</div>
+  </div>
+</div>
+
+</body>
+</html>
